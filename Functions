@@ -1,0 +1,70 @@
+Functions:
+ A function is reusable block of code.It can be call any where in the program
+ In JS: Key-wor=Function
+ Parameters=values(variables) which are declared inside the () while defining a functions
+ Arguments= Values which are passed through the parameters at the time of calling the function
+ EX:
+ function greet(){
+  console.log("Hello Rishi")
+  }
+  greet() # Hello Rishi
+  console.log("Hi Chintu")  #Hi Chintu
+  greet()  # Hello Rishi
+  TO add:
+  function add(a,b){
+  console.log(a+b)
+  }
+  add(3,5) #8
+  add(9,7) #16
+  
+  Questions:
+  Write a program to check given number is prime or not
+  Fibno, Leap yr, Armstrong, Palindron, Pattern
+
+IN VS CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function greet(){
+            console.log("Hello Rishi")
+        }
+        greet()
+        console.log("Hi Chintu")
+        greet() 
+
+       function g(name){
+            console.log("Hello "+ name)
+        }
+        let name=prompt("Enter your Name")
+        g(name) 
+
+        function add(a,b){
+            console.log(a+b)
+        }
+        add(3,5)
+        add(9,7) 
+
+        function a(aa,bb){
+            return aa+bb
+        }
+        let n1=parseFloat(prompt("Enter a number1"))
+        let n2=parseFloat(prompt("Enter a number2"))
+        let result = a(n1,n2)
+        console.log("The sum is: "+result) 
+
+        sum= function(n1,n2){
+            let r=n1+n2
+            return r
+        }
+        console.log(sum(8,9)) 
+
+    </script>
+</body>
+</html>
