@@ -1,0 +1,40 @@
+Arrow Functions:
+  --Es6 Version
+  --More readable and more structure
+  --anonymous function (lambda functions)
+  --without function name but they are assigned to a variable
+  EX:
+  Arrow function with out parameters
+  let c=()=>{
+  console.log("Hi Ram")
+  }
+  c()
+  Arrow function with parameters
+  EX:
+  let x=(x,y)=>{
+  console.log(x+y)
+  }
+  x(20,30)
+  x(40,50)
+  ex
+  
+  let greet=x=>console.log(x)
+  greet('Hello')
+  arrow function without argument
+  let greet=x=>console.log('Hello')
+  greet()
+ #Arrow function as an expression
+ let age=18
+  let welcome=(age<18)?
+   ()=>console.log('Hi Chintu')
+   ()=>console.log('Hi Sunny')
+   welcome() 
+ Synchronous and  Asynchronous:
+ Asynchronous---Multiple tasks at time
+ EX:
+ console.log("Hi Raviteja")
+   setTimeout(()=>{
+    console.log("Hello I am waiting")
+   },
+   5000)
+   console.log("Iam in lab")
