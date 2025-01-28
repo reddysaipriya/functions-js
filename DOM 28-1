@@ -1,0 +1,31 @@
+DOM: know as DOCUMENT OBJECT MODEL..
+===>It is a programming interface in web development that allows us to interact and manipulate (change) the html documents
+===>we find this dom when web page is loaded, automatically the browser creates the dom of the web page.
+===>when an html file is loaded into the browser , the JavaScript cannot understand the html document.
+===>Dom is basically the representation of the same html document but in a tree like structure composed of objects.
+===>html dom it allows javascript to access(to get) and modify the elements in html document.
+
+KEYPOINTS:
+1... STRUCTURE: the dom represents the structure of html document as a tree ; each node in a tree represents the element , an attribute and text
+2... MANIPULATION: using javascript you can interact with html elements like buttons, heading; we can add, modify and remove the elements 
+3... EVENT HANDLING: 
+4... w3c: WORLD WIDE WEB COSORTIUM:
+===> in dom all the html elements are defined by objects.
+5... PROPERTY:  it is a value that u can set to the elements.
+(like changing content of an html element)
+6...METHODS: An action
+(like delete or adding)
+
+
+METHODS OF 
+
+GETTING ELEMENT:
+1. GETTING AN ELEMENT BY ID:
+
+2.GETTING AN ELEMENT BY CLASS:
+---returns the elements having the same class name
+---returns the result in form of html collection object
+
+
+3. GETTING AN ELEMENT BY TAGNAME
+4. GETTING AN ELEMENT BY QUERY SELECTOR
