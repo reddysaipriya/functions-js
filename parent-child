@@ -1,0 +1,53 @@
+--- 30-01-25 ---
+ HOw to remove child elements from a parent node
+ removeChild() -to remove the elements
+Ex:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> removing childnode</h1>
+    <h2>i am in hyd</h2>
+    <ul>
+        <li>anu</li>
+        <li>jesu</li>
+        <script>
+         /*   const ul = document.querySelector('ul')
+            const lists = document.querySelectorAll('li')
+            console.log(ul)
+            console.log(lists)
+            for (const list of lists) {
+                console.log(`removing: ${ list.nextContent }`)
+                ul.reomoveChild(list)
+                console.log(lists)
+                console.log(list)
+            } */
+        </script> 
+
+//To append a new element to the parent node:
+    <div id="a">
+        <h1>Guna</h1>
+        <h1>Ashish</h1>
+        <h1>Chiru</h1>
+    </div>
+    <div id="b">
+        <h2>Hema</h2>
+        <h2>Purushotham</h2>
+        <h2>Harshitha</h2>
+    </div>
+    <script>
+        let n=document.createElement('h2')
+        n.textContent='Guru'
+
+        let p=document.getElementById('b')
+        p.appendChild(n)
+
+        console.log(p.innerText)
+    </script>
+<
+</body>
+</html>
